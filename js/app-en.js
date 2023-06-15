@@ -78,7 +78,7 @@ async function getMovies(url) {
 const moviesContainer = document.querySelector('.movies');
 const exceptionDiv = document.createElement('div');
 exceptionDiv.classList.add('exception');
-exceptionDiv.textContent = 'Помилка: не знайдено жодного фільму.';
+exceptionDiv.textContent = 'Error: No movies found.';
 moviesContainer.appendChild(exceptionDiv);
 
     console.log("Немає результатів");
